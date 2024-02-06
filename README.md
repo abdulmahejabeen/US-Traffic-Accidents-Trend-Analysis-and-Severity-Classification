@@ -14,4 +14,12 @@ of the impact on traffic and the level of damage or fatalities; and Description,
 - Filling Null Values
 - Label encoding
 
-![image](https://github.com/abdulmahejabeen/US-Traffic-Accidents-Trend-Analysis-and-Severity-Classification/assets/56336879/c4f8d3d0-5a44-4455-85f2-9a88aaa331f6)
+## Methods
+- Apriori algorithm to provide recommendations based on the association rules.
+- Decision tree classifier for severity classification with SMOTE.
+- RoBERTa for classifying the severity of the accidents.
+
+## Conclusion:
+The proposed approach BERT for solving the severity classification of accidents has shown great results of 85% accuracy, especially a perfect F1 score in identifying the fatal
+accidents that are considered severity 4. This proves that our intuition of trying the transfer learning of RoBERTa, a generally classification model for Natural Language, can
+also work for a specific domain like in this case the accident data.
