@@ -6,3 +6,12 @@ This dataset on traffic accidents covers 49 states of the United States. It is c
 
 The data set contains 47 features, some features include TMC, which is a Traffic Message Channel code, Severity, which is a number ranging from 1 to 4 indicating the extent
 of the impact on traffic and the level of damage or fatalities; and Description, which provides a natural language description of the accident, and Weather Condition, which describes the weather at the time of the accident using natural language keywords.
+## Data Preprocessing:
+- Datatype Conversions.
+- Adding new columns to improve the quality of analysis.
+- Identifying and correcting inconsistencies or missing data in the dataset.
+- Removing redundant Columns.
+- Filling Null Values
+- Label encoding
+
+![image](https://github.com/abdulmahejabeen/US-Traffic-Accidents-Trend-Analysis-and-Severity-Classification/assets/56336879/c4f8d3d0-5a44-4455-85f2-9a88aaa331f6)
