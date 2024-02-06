@@ -8,6 +8,16 @@ This dataset on traffic accidents covers 49 states of the United States and is c
 
 Datasource Link: [US-Accidents (2016 - 2023)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
 
+## Project Objectives:
+1. To analyze historical accident data to identify patterns and trends in accident occurrence, contributing factors, and potential solutions.
+2. To develop a predictive model that accurately identifies accident-prone areas and helps reduce the frequency and severity of accidents in the USA.
+3. To identify the most significant predictors of accidents in the USA, including road conditions, vehicle types, and weather patterns.
+4. To explore the use of advanced technologies, such as machine learning and artificial intelligence, to improve the accuracy and effectiveness of accident prediction models.
+5. To develop recommendations and guidelines for policymakers, transportation agencies, and other stakeholders to help prevent accidents and reduce their impact on public safety.
+
+## Community Contribution:
+Nowadays, car transportation has become an integral part of our daily lives. Considering the persistently high rates of severe accidents and fatalities, it is inevitable to improve automobiles. Regrettably, traffic accidents have always been a part of the driving experience. This highlights the importance of data-driven approaches to road safety and aims to inspire transportation authorities and the public to take action in promoting such approaches.
+
 ## Data Preprocessing:
 - Datatype Conversions.
 - Adding new columns to improve the quality of analysis.
@@ -22,9 +32,8 @@ Datasource Link: [US-Accidents (2016 - 2023)](https://www.kaggle.com/datasets/so
 - RoBERTa for classifying the severity of the accidents.
 
 ## Results:
-The proposed approach BERT for solving the severity classification of accidents has shown great results of 85% accuracy, especially a perfect F1 score in identifying the fatal
-accidents that are considered severity. This proves that intuition of trying the transfer learning of RoBERTa, a generally classification model for Natural Language, can
-also work for a specific domain like in this case the accident data.
+- Decision tree classifier despite balanced classes done with SMOTE gave a low accuracy of 71% showing that the model couldn't learn how to classify based on the patterns in the data like bumps, crossing, signals, etc. which are the main features in road traffic data.
+- The proposed BERT model for solving this problem showed a greater accuracy for very fewer data. With the availability of better computing power and GPU resources, the model can be fine-tuned and better trained with larger data and achieve greater accuracy. It currently gives 85% accuracy in classifying the severity of accidents.
 
 ## References:
 - Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
