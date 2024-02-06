@@ -19,7 +19,7 @@ of the impact on traffic and the level of damage or fatalities; and Description,
 - Decision tree classifier for severity classification with SMOTE.
 - RoBERTa for classifying the severity of the accidents.
 
-## Conclusion:
+## Results:
 The proposed approach BERT for solving the severity classification of accidents has shown great results of 85% accuracy, especially a perfect F1 score in identifying the fatal
 accidents that are considered severity. This proves that intuition of trying the transfer learning of RoBERTa, a generally classification model for Natural Language, can
 also work for a specific domain like in this case the accident data.
