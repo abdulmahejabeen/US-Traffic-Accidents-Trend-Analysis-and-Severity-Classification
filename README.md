@@ -2,9 +2,7 @@
 ## Objective:
 The objective of this research is to analyze historical accident data to identify patterns and trends in accident occurrence, contributing factors, and potential solutions.
 ## Dataset Description:
-This dataset on traffic accidents covers 49 states of the United States and is continuously updated since February 2016. It is collected through multiple data providers that include various APIs which provide streaming traffic event data. It is collected through multiple data providers that include various APIs which provide streaming traffic event data. It is the collection of car accident data from various sources such as MapQuest and Bing. 
-
-The APIs capture traffic events from different sources such as traffic cameras, traffic sensors in the road network, and law enforcement agencies, among others. Moosavi, Samavatian, Parthasarathy, Teodorescu, et al. (2019) have provided a summary of this process is shown below
+This dataset on traffic accidents covers 49 states of the United States and is continuously updated since February 2016. It is collected through multiple data providers that include various APIs which provide streaming traffic event data. The APIs capture traffic events from different sources such as traffic cameras, traffic sensors in the road network, and law enforcement agencies, among others. Moosavi, Samavatian, Parthasarathy, Teodorescu, et al. (2019) have provided a summary of this process. This large-scale database was created by gathering, integrating, and supplementing data through a comprehensive process. It includes information on 2.8 million traffic accidents that occurred in the contiguous United States. Each accident record contains intrinsic and contextual attributes, such as location, time, weather, natural language description, points of interest, and time of day.
 <img width="600" alt="image" src="https://github.com/abdulmahejabeen/US-Traffic-Accidents-Trend-Analysis-and-Severity-Classification/assets/56336879/4a81ec65-19a8-470f-98c9-1474754f68da">
 
 
