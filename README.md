@@ -9,6 +9,9 @@ of the impact on traffic and the level of damage or fatalities; and Description,
 
 Datasource Link: [US-Accidents (2016 - 2023)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
 
+<img width="442" alt="image" src="https://github.com/abdulmahejabeen/US-Traffic-Accidents-Trend-Analysis-and-Severity-Classification/assets/56336879/5a48a9e3-7a51-47fb-95b8-17a82a0f04a7">
+
+
 ## Data Preprocessing:
 - Datatype Conversions.
 - Adding new columns to improve the quality of analysis.
