@@ -21,5 +21,9 @@ of the impact on traffic and the level of damage or fatalities; and Description,
 
 ## Conclusion:
 The proposed approach BERT for solving the severity classification of accidents has shown great results of 85% accuracy, especially a perfect F1 score in identifying the fatal
-accidents that are considered severity 4. This proves that our intuition of trying the transfer learning of RoBERTa, a generally classification model for Natural Language, can
+accidents that are considered severity. This proves that intuition of trying the transfer learning of RoBERTa, a generally classification model for Natural Language, can
 also work for a specific domain like in this case the accident data.
+
+## References:
+- Moosavi, S., Samavatian, M. H., Parthasarathy, S., & Ramnath, R. (2019). A Countrywide Traffic Accident Dataset. ArXiv:1906.05409 [Cs]. https://arxiv.org/abs/1906.05409
+- Moosavi, S., Samavatian, M. H., Parthasarathy, S., Teodorescu, R., & Ramnath, R. (2019). Accident Risk Prediction based on Heterogeneous Sparse Data. Proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems - SIGSPATIAL ’19. https://doi.org/10.1145/3347146.3359078
