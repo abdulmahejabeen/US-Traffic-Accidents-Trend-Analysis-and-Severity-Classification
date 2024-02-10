@@ -23,8 +23,8 @@ Nowadays, car transportation has become an integral part of our daily lives. Con
 - Adding new columns to improve the quality of analysis.
 - Identifying and correcting inconsistencies or missing data in the dataset.
 - Removing redundant Columns.
-- Filling Null Values
-- Label encoding
+- Filling Null Values.
+- Label encoding.
 
 ## Methods
 - Apriori algorithm to provide recommendations based on the association rules.
